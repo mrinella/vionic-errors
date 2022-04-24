@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>We'll be right back - Please check back soon | Vionic Shoes is upgrading the website for a better shopping
+        experience</title>
+    <meta name="description" content="We’re working on exciting new updates to enhance your shopping experience. "/>
+</head>
+
+
+<style>
+    @font-face {
+        font-family: 'ProximaNova-Regular';
+        src: url('https://fonts.vionicshoes.com/web/ProximaNova-Regular/font.woff2') format('woff2'),
+        url('https://fonts.vionicshoes.com/web/ProximaNova-Regular/font.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'SackersGothicStd-Medium';
+        src: url('https://fonts.vionicshoes.com/web/37C02F_2_unhinted_0.woff2') format('woff2'),
+        url('https://fonts.vionicshoes.com/web/37C02F_2_unhinted_0.woff') format('woff');
+    }
+
+    /* common */
+    body {
+        margin: 0 auto;
+        padding: 0 15px 25px;
+    }
+
+    /* desktop */
+    .custom-page-content header img {
+        width: 215px;
+        margin: 10px auto 0;
+    }
+
+    .custom-page-content p,
+    .custom-page-content h1 {
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .custom-page-content p {
+        font-family: "ProximaNova-Regular", Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 100;
+        letter-spacing: .05em;
+    }
+
+    .custom-page-content h1 {
+        font-size: 38px;
+        font-family: SackersGothicStd-Medium, arial, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .custom-page-content header img.mobile-img {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+
+    .custom-page-content header img.desktop-img {
+        display: none
+    }
+
+    .cf-error {
+        color:  white;
+    }
+
+
+    /* mobile */
+    @media only screen and (max-width: 768px) {
+        p.desktop-copy {
+            display: none;
+        }
+    }
+
+
+    /* desktop */
+    @media only screen and (min-width: 768px) {
+        p.desktop-copy {
+            display: block;
+            font-size: 26px;
+        }
+
+        p.mobile-copy {
+            display: none;
+        }
+
+        .custom-page-content header img.desktop-img {
+            display: block;
+            width: 80%;
+            height: auto;
+            max-width: 1024px;
+        }
+
+        .custom-page-content h1 {
+            font-size: 50px;
+        }
+
+        .custom-page-content header img.mobile-img {
+            display: none;
+        }
+    }
+</style>
+
+<body>
+<div class="custom-page-content">
+    <header style="text-align: center">
+
+        <img src="images/ConstructionLP-mobile.jpg" class="mobile-img" alt="Vionic Shoes">
+        <img src="images/ConstructionLP-desktop.jpg" class="desktop-img" alt="Vionic Shoes">
+    </header>
+    <h1>
+        We&rsquo;ll be right&nbsp;back!
+    </h1>
+    <p class="mobile-copy">
+        We&rsquo;re working on exciting new updates&nbsp;to enhance your shopping&nbsp;experience.<br><br>
+        Please check back&nbsp;soon.
+    </p>
+    <p class="desktop-copy">
+        We&rsquo;re working on exciting new updates&nbsp;to<br>
+        enhance your shopping&nbsp;experience.<br><br>
+        Please check back&nbsp;soon.
+    </p>
+</div>
+<div class="cf-error">
+::CLOUDFLARE_ERROR_500S_BOX::
+</div>
+</body>
+</html>
